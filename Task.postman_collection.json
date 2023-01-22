@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "8d58f7fe-66f3-4bfb-a751-da239f01bf1b",
+		"name": "Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/sendNotification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tokens\":\"AAAAalKttsE:APA91bH5wKFotog4Xs-UI7sCYiPb-SEhSKOGZjcTbfjZRREsF2DSK2_BFQ4XUT6_FONa9ZDFux9Cf-BKUHOtKNjeYbRJ450IKk38iSALp7k44w8GvlkXV49MSe3U4gFXQZMqDYRqge0S\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/sendNotification",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"sendNotification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/sendNotificationfirsend",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/sendNotificationfirsend",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"sendNotificationfirsend"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
